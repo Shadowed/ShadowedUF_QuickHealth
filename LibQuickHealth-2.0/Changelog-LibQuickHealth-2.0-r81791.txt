@@ -1,0 +1,90 @@
+------------------------------------------------------------------------
+r81791 | tifi | 2008-09-16 18:44:42 -0400 (Tue, 16 Sep 2008) | 4 lines
+Changed paths:
+   M /trunk/LibQuickHealth-2.0
+   M /trunk/LibQuickHealth-2.0/LibQuickHealth-2.0.lua
+
+LibQuickHealth-2.0:
+- Bugfix: target and focus didn't receive updates correctly.
+- Bugfix: Fixed possible nil error when the library was loaded twice.
+- Replaced some globals with upvalues.
+------------------------------------------------------------------------
+r81605 | tifi | 2008-09-11 07:21:47 -0400 (Thu, 11 Sep 2008) | 2 lines
+Changed paths:
+   M /trunk/LibQuickHealth-2.0/LibQuickHealth-2.0.lua
+
+LibQuickHealth-2.0:
+- Fast updates for target and focus.
+------------------------------------------------------------------------
+r81554 | tifi | 2008-09-08 19:59:16 -0400 (Mon, 08 Sep 2008) | 1 line
+Changed paths:
+   M /trunk/LibQuickHealth-2.0/LibQuickHealth-2.0.lua
+
+LibQuickHealth-2.0: typo
+------------------------------------------------------------------------
+r81553 | cncfanatics | 2008-09-08 19:07:00 -0400 (Mon, 08 Sep 2008) | 1 line
+Changed paths:
+   M /trunk/LibQuickHealth-2.0/LibQuickHealth-2.0.lua
+
+LibQuickHealth-2.0: Remove lifetap handling code as WotLK breaks it
+------------------------------------------------------------------------
+r81552 | cncfanatics | 2008-09-08 19:02:47 -0400 (Mon, 08 Sep 2008) | 1 line
+Changed paths:
+   M /trunk/LibQuickHealth-2.0/LibQuickHealth-2.0.lua
+
+LibQuickHealth-2.0: Some cosmetical changes and extra commenting
+------------------------------------------------------------------------
+r81544 | tifi | 2008-09-08 12:34:28 -0400 (Mon, 08 Sep 2008) | 1 line
+Changed paths:
+   M /trunk/LibQuickHealth-2.0/LibQuickHealth-2.0.lua
+
+LibQuickHealth-2.0: typo
+------------------------------------------------------------------------
+r81542 | tifi | 2008-09-08 11:58:37 -0400 (Mon, 08 Sep 2008) | 2 lines
+Changed paths:
+   M /trunk/LibQuickHealth-2.0/LibQuickHealth-2.0.lua
+
+LibQuickHealth-2.0: moar docs
+- "UnitHealthUpdated replaces not only UNIT_HEALTH, but also UNIT_MAXHEALTH [...]"
+------------------------------------------------------------------------
+r81541 | tifi | 2008-09-08 11:40:43 -0400 (Mon, 08 Sep 2008) | 5 lines
+Changed paths:
+   M /trunk/LibQuickHealth-2.0/LibQuickHealth-2.0.lua
+
+LibQuickHealth-2.0: Make it easier for addon authors to add the library as an optional dependency.
+- Added another event UnitHealthUpdated(unitID, health, healthMax) which fires for unitIDs instead of GUIDs.
+- Small API change: It's LQH.UnitHealth(unitID) now instead of LQH:UnitHealth(unitID). Added LQH:GetHealth(unitID).
+- HealthUpdated now fires only if the health changes instead of every time UNIT_HEALTH fires.
+- More documentation and code examples.
+------------------------------------------------------------------------
+r81458 | tifi | 2008-09-06 22:19:27 -0400 (Sat, 06 Sep 2008) | 1 line
+Changed paths:
+   M /trunk/LibQuickHealth-2.0/LibQuickHealth-2.0.lua
+
+LibQuickHealth-2.0: code cleanup
+------------------------------------------------------------------------
+r81453 | tifi | 2008-09-06 19:46:39 -0400 (Sat, 06 Sep 2008) | 2 lines
+Changed paths:
+   M /trunk/LibQuickHealth-2.0/LibQuickHealth-2.0.lua
+
+LibQuickHealth-2.0: 
+- added comments, wtb grammar check /w me
+------------------------------------------------------------------------
+r81451 | tifi | 2008-09-06 18:43:34 -0400 (Sat, 06 Sep 2008) | 2 lines
+Changed paths:
+   M /trunk/LibQuickHealth-2.0
+   A /trunk/LibQuickHealth-2.0/CallbackHandler-1.0.lua
+   A /trunk/LibQuickHealth-2.0/LibQuickHealth-2.0.lua
+   A /trunk/LibQuickHealth-2.0/LibQuickHealth-2.0.toc
+   A /trunk/LibQuickHealth-2.0/LibQuickHealth-2.0.xml
+   A /trunk/LibQuickHealth-2.0/LibStub.lua
+
+LibQuickHealth-2.0:
+- Initial commit.
+------------------------------------------------------------------------
+r81450 | tifi | 2008-09-06 17:57:13 -0400 (Sat, 06 Sep 2008) | 1 line
+Changed paths:
+   A /trunk/LibQuickHealth-2.0
+
+LibQuickHealth-2.0: Initial commit
+------------------------------------------------------------------------

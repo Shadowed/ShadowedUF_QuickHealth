@@ -1,0 +1,7 @@
+## Interface: 30100
+## Title: ShadowedUF Quick Health
+## Notes: Adds LibQuickHealth-2.0 support to Shadowed Unit Frames.
+## Author: Mayen
+
+LibQuickHealth-2.0\LibQuickHealth-2.0.xml
+ShadowedUF_QuickHealth.lua

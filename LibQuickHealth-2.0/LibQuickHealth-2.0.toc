@@ -1,0 +1,9 @@
+## Interface: 20400
+## Title: Lib: QuickHealth-2.0
+## Author: Tifi, Cncfanatics
+## X-Donate: PayPal: diego.duclos@gmail.com
+## X-Email: diego.duclos@gmail.com
+## X-Category: Library
+## X-License: MIT
+
+LibQuickHealth-2.0.xml
