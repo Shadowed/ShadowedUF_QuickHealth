@@ -74,7 +74,7 @@ function QuickHealth:HealthUpdated(event, guid, health, maxHealth)
 			Update(ShadowUF.modules.healthBar, frame)
 			
 			if( frame.incHeal and frame.incHeal.enabled ) then
-				IncUpdate(ShadowUf.modules.incHeal, frame)
+				IncUpdate(ShadowUf.modules.incHeal, frame, "UNIT_HEALTH")
 			end
 		end
 	end
